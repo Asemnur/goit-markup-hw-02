@@ -1,0 +1,179 @@
+:root {
+    --blue: #2196F3;
+    --black: #212121;
+}
+
+.body {
+    font-family: Roboto, Raleway, sans-serif;
+    color:var(--black);
+}
+
+.header {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.navigation-logo-link {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color:#2196F3;
+}
+
+.navigation-list {
+    list-style: none;
+}
+
+.logo-head {
+    color:#000000;
+}
+
+.navigation-link {
+    line-height: 1.1;
+    color:var(--black)
+ }
+
+.navigation-link:hover, .navigation-link:focus {
+    line-height: 1.1;
+    color: var(--blue);
+}
+
+.header-list {
+    list-style: none;
+}
+
+.header-contact {
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.header-contact:hover, .header-contact:focus {
+    color:var(--blue);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #2F303A;
+}
+
+.button {
+    color:#FFFFFF;
+    background-color: var(--blue);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.features-list {
+    list-style: none;
+}
+
+.features h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--black);
+}
+
+.features p {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.activity-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--black);
+}
+
+.activity-list {
+    list-style: none;
+}
+
+.team {
+    color:var(--black);
+}
+
+.team-list {
+    list-style: none;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team p {
+    font-size: 16px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+   }
+
+.footer {
+    font-family: 'Roboto';
+    color:#FFFFFF;
+    background-color: #2F303A;
+   }
+
+.footer-link {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+   }
+
+.footer-logo {
+    color:#FFFFFF;
+   }
+
+.footer-list {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    list-style: none;
+    }
+
+.footer-address {
+        color: #FFFFFF;
+    }
+
+.footer-contact {
+        color:rgba(255, 255, 255, 0.6);
+    }
+
+.footer-contact:hover, .footer-contact:focus {
+        color:var(--blue);
+    }
