@@ -1,6 +1,11 @@
 :root {
     --blue: #2196F3;
     --black: #212121;
+    --pureblack: #000000;
+    --grey: #757575;
+    --white: #FFFFFF;
+    --darkgrey: #2F303A;
+    --greyish: #F5F4FA;
 }
 
 .body {
@@ -11,15 +16,17 @@
 .header {
     font-weight: 500;
     font-size: 14px;
+    background-color: var(--white);
 }
 
 .navigation-logo-link {
-    font-family: 'Raleway';
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color:var(--blue);
+    text-decoration: none;
 }
 
 .navigation-list {
@@ -27,11 +34,12 @@
 }
 
 .logo-head {
-    color: #000000;
+    color:var(--pureblack);
 }
 
 .navigation-link {
     line-height: 1.1;
+    text-decoration: none;
     color: var(--black)
 }
 
@@ -48,7 +56,8 @@
 .header-contact {
     line-height: 1.1;
     letter-spacing: 0.02em;
-    color: #757575;
+    color:var(--grey);
+    text-decoration: none;
 }
 
 .header-contact:hover,
@@ -56,11 +65,15 @@
     color: var(--blue);
 }
 
+.hero {
+    background-color: var(--white);
+}
+
 .hero-list {
     list-style-type: none;
 }
 .button {
-    font-family: 'Roboto';
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -71,8 +84,12 @@
     }
 
 .button:hover, .button:focus {
-    color: #FFFFFF;
+    color:var(--white);
     background-color: var(--blue);
+}
+
+.project {
+    background-color: var(--white);
 }
 
 .project-list {
@@ -92,36 +109,27 @@
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.03em;
-    color:#757575;
+    color:var(--grey);
 }
 
-
-
-
-
-
-
-
-
-
-
 .footer {
-    font-family: 'Roboto';
-    color: #FFFFFF;
-    background-color: #2F303A;
+    font-family: Roboto, sans-serif;
+    color:var(--white);
+    background-color:var(--darkgrey);
 }
 
 .footer-link {
-    font-family: 'Raleway';
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color:var(--blue);
+    text-decoration: none;
 }
 
 .footer-logo {
-    color: #FFFFFF;
+    color:var(--white);
 }
 
 .footer-list {
@@ -132,11 +140,15 @@
 }
 
 .footer-address {
-    color: #FFFFFF;
+    color:var(--white);
+    text-decoration: none;
+    font-style: normal;
 }
 
 .footer-contact {
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
 }
 
 .footer-contact:hover,
