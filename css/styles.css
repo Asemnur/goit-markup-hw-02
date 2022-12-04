@@ -12,13 +12,13 @@
 .body {
     font-family: Roboto, sans-serif;
     color:var(--black);
+    background-color: var(--white);
 }
 
 .header {
     font-weight: 500;
     font-size: 14px;
-    background-color: var(--white);
-}
+    }
 
 .navigation-logo-link {
     font-family: Raleway, sans-serif;
@@ -93,10 +93,6 @@
     background-color: var(--bluish);
 }
 
-.features {
-    background-color:var(--white);
-}
-
 .features-list {
     list-style: none;
 }
@@ -115,10 +111,6 @@
     line-height: 1.7;
     letter-spacing: 0.03em;
     color:var(--grey);
-}
-
-.activity {
-    background-color: var(--white);
 }
 
 .activity-title {
@@ -151,14 +143,17 @@
     letter-spacing: 0.03em;
 }
 
+.team-item {
+    background-color: var(--white);
+}
+
 .team-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.1;
     text-align: center;
     letter-spacing: 0.03em;
-    background-color: var(--white);
-}
+    }
 
 .team p {
     font-size: 16px;
@@ -166,8 +161,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     color:var(--grey);
-    background-color: var(--white);
-   }
+      }
 
 .footer {
     font-family: Roboto, sans-serif;
